@@ -672,10 +672,10 @@ html{
     .story-bg {
       width: 85%;
     }
-  }
+}
 
 
-  @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .nav-list {
       flex-direction: column;
     }
@@ -722,10 +722,10 @@ html{
       padding: 0.3rem 2rem;
       margin: 0 1rem;
     }
-  }
+}
 
 
-  @media (max-width: 800px) {
+@media (max-width: 800px) {
     .header-paragraph {
       display: none;
     }
@@ -746,5 +746,38 @@ html{
     .footer-link {
       margin: 1rem 0;
     }
-  }
+}
+
+
+@media (max-width: 650px) {
+    .container {
+      margin: 0;
+    }
+  
+    .open-navbar-icon {
+      top: 2.5rem;
+      left: 2.5rem;
+    }
+  
+    .navbar-wrapper {
+      padding: 0;
+    }
+  
+    .close-navbar-icon {
+      right: 4rem;
+    }
+  
+    .header {
+      height: 100vh;
+    }
+  
+    .contact-heading {
+      font-size: 6rem;
+    }
+  
+    .contact-form {
+      padding: 2rem;
+      height: 40rem;
+    }
+}
 
